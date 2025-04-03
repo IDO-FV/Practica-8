@@ -1,0 +1,28 @@
+//Franco Vazquez Ian Javier
+
+#include <stdio.h>
+#include <math.h>
+
+void main ()
+{
+    int a, b=0, par, impar;
+    
+    printf ("cuantos numeros quiers tomar en cuenta? \n");
+    scanf ("%i", &a);
+    
+    while (b <= a)
+    {
+        if(b % 2 == 0)
+     {
+         par = b;
+     }
+        else
+     {
+         impar = b;
+     }
+     b = b+1;
+    }
+    
+    printf ("El ultimo numero par es: %i\n", par);
+    printf ("El ultimo numero impar es: %i\n", impar);
+}
