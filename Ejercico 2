@@ -17,5 +17,7 @@ void main ()
         b = b + 1;
     }
     while (c <= 100 && b < 10);
+    
+    printf("Suma total: %i\n", c);
 
 }
